@@ -1,0 +1,13 @@
+{
+  "raw_results_path": "final_runs/gsm8k_full_bestof3_relaxed_support/raw_results.jsonl",
+  "total": 1319,
+  "initial_correct": 1261,
+  "initial_wrong": 58,
+  "triggered_wrong": 43,
+  "correct_candidate_exists_among_initial_wrong": 25,
+  "accepted_correct_repair": 17,
+  "rejected_correct_repair": 8,
+  "no_correct_candidate_among_initial_wrong": 33,
+  "final_wrong": 41,
+  "broken_correct": 0
+}

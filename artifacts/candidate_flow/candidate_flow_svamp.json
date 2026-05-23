@@ -1,0 +1,13 @@
+{
+  "raw_results_path": "outputs/svamp_full_guarded_n3/raw_results.jsonl",
+  "total": 300,
+  "initial_correct": 282,
+  "initial_wrong": 18,
+  "triggered_wrong": 15,
+  "correct_candidate_exists_among_initial_wrong": 8,
+  "accepted_correct_repair": 3,
+  "rejected_correct_repair": 5,
+  "no_correct_candidate_among_initial_wrong": 10,
+  "final_wrong": 18,
+  "broken_correct": 3
+}

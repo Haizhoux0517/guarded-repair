@@ -1,0 +1,13 @@
+{
+  "raw_results_path": "final_runs/asdiv_random1000_qwen15b_bestof3_weak_relaxed_support/raw_results.jsonl",
+  "total": 1000,
+  "initial_correct": 784,
+  "initial_wrong": 216,
+  "triggered_wrong": 166,
+  "correct_candidate_exists_among_initial_wrong": 130,
+  "accepted_correct_repair": 92,
+  "rejected_correct_repair": 38,
+  "no_correct_candidate_among_initial_wrong": 86,
+  "final_wrong": 124,
+  "broken_correct": 0
+}

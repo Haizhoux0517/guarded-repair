@@ -1,0 +1,13 @@
+{
+  "raw_results_path": "outputs/multiarith_full_guarded_n3/raw_results.jsonl",
+  "total": 180,
+  "initial_correct": 180,
+  "initial_wrong": 0,
+  "triggered_wrong": 0,
+  "correct_candidate_exists_among_initial_wrong": 0,
+  "accepted_correct_repair": 0,
+  "rejected_correct_repair": 0,
+  "no_correct_candidate_among_initial_wrong": 0,
+  "final_wrong": 1,
+  "broken_correct": 1
+}
