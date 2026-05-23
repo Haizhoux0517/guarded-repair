@@ -1,0 +1,13 @@
+{
+  "raw_results_path": "outputs/asdiv_random1000_seed0_qwen15b_guarded_n3/raw_results.jsonl",
+  "total": 1000,
+  "initial_correct": 795,
+  "initial_wrong": 205,
+  "triggered_wrong": 151,
+  "correct_candidate_exists_among_initial_wrong": 117,
+  "accepted_correct_repair": 87,
+  "rejected_correct_repair": 30,
+  "no_correct_candidate_among_initial_wrong": 88,
+  "final_wrong": 120,
+  "broken_correct": 2
+}
