@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "Guarded Repair for Harm-Aware Post-hoc Verification of LLM Mathematical Reasoning"
+message: "If you use this repository, please cite the associated paper."
+type: software
+authors:
+  - family-names: Xia
+    given-names: Haizhou
+    email: haizhoux1803@gmail.com
+year: 2026
+repository-code: "https://github.com/haizhoux1803/guarded-repair"
+license: MIT
