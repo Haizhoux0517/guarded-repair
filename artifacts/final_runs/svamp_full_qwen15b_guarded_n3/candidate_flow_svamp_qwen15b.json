@@ -1,0 +1,13 @@
+{
+  "raw_results_path": "outputs/svamp_full_qwen15b_guarded_n3/raw_results.jsonl",
+  "total": 300,
+  "initial_correct": 221,
+  "initial_wrong": 79,
+  "triggered_wrong": 59,
+  "correct_candidate_exists_among_initial_wrong": 51,
+  "accepted_correct_repair": 44,
+  "rejected_correct_repair": 7,
+  "no_correct_candidate_among_initial_wrong": 28,
+  "final_wrong": 36,
+  "broken_correct": 1
+}

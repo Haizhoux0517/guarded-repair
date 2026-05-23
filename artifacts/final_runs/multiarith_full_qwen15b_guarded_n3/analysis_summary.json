@@ -1,0 +1,113 @@
+{
+  "input_files": {
+    "raw_results_path": "outputs/multiarith_full_qwen15b_guarded_n3/raw_results.jsonl",
+    "final_report_path": "outputs/multiarith_full_qwen15b_guarded_n3/final_report.json"
+  },
+  "final_report": {
+    "total": 180,
+    "initial_correct": 174,
+    "final_correct": 177,
+    "initial_accuracy": 0.9666666666666667,
+    "final_accuracy": 0.9833333333333333,
+    "absolute_improvement": 0.016666666666666666,
+    "initial_wrong": 6,
+    "num_repair_candidates": 71,
+    "num_repairs_accepted": 5,
+    "fixed_errors": 4,
+    "broke_correct": 1,
+    "failed_to_fix": 2,
+    "repair_acceptance_rate": 0.07042253521126761,
+    "accepted_repair_precision": 0.8,
+    "error_repair_rate": 0.6666666666666666,
+    "harm_rate": 0.005555555555555556,
+    "cache_path": "outputs/cache/initial_reasoning_cache.jsonl",
+    "from_cache": true,
+    "guarded_pipeline": true,
+    "medium_repair_trigger": true,
+    "graph_guard_enabled": true,
+    "deterministic_hint_enabled": true,
+    "direct_deterministic_accept_enabled": false,
+    "llm_repair_enabled": true,
+    "llm_repair_max_retries": 1,
+    "llm_repair_max_tokens": 768,
+    "json_repair_output_enabled": true,
+    "format_retry_enabled": true,
+    "format_retry_used": 5,
+    "format_retry_max_retries": 1,
+    "format_retry_max_tokens": 512,
+    "llm_repair_num_candidates": 3,
+    "total_llm_repair_attempts": 203,
+    "clean_semantic_improvement_accept_enabled": true,
+    "graph_trigger_threshold": 0.8,
+    "graph_accept_min_score": 0.6,
+    "repair_mode": "medium_trigger_json_hint_guided_best_of_n_llm_repair_with_generic_format_retry",
+    "llm_clean_output_guard": true,
+    "llm_accept_policy": "answer_change_under_high_risk_or_empty_or_very_low_confidence_or_low_initial_confidence_clean_or_benign_warning_or_restricted_clean_semantic_improvement"
+  },
+  "analysis": {
+    "total": 180,
+    "accepted_repairs": 5,
+    "rejected_repairs": 66,
+    "fixed_cases": 4,
+    "broken_cases": 1,
+    "remaining_errors": 3,
+    "candidate_correct_count": 70,
+    "candidate_correct_but_rejected_count": 66,
+    "initially_wrong_count": 6,
+    "initially_correct_count": 174,
+    "initially_wrong_candidate_correct_count": 4,
+    "initially_wrong_candidate_correct_but_rejected": 0,
+    "initially_wrong_candidate_wrong_count": 0,
+    "initially_wrong_candidate_missing_or_unparseable": 2,
+    "initially_correct_candidate_correct_count": 66,
+    "initially_correct_candidate_correct_but_rejected": 66,
+    "initially_correct_candidate_wrong_count": 1,
+    "initially_wrong_graph_guard_rejected": 0,
+    "initially_wrong_format_failed": 0,
+    "initially_wrong_candidate_wrong": 0,
+    "initially_wrong_no_candidate": 2,
+    "accepted_noop_repairs": 0,
+    "accepted_answer_changing_repairs": 5,
+    "llm_format_failures": 0
+  },
+  "counters": {
+    "repair_source_counter": {
+      "none": 109,
+      "llm_hint_guided_attempt_0": 67,
+      "llm_hint_guided_attempt_1": 4
+    },
+    "initial_graph_error_counter": {
+      "none": 143,
+      "quantity_binding_error": 37
+    },
+    "candidate_graph_error_counter": {
+      "none": 180
+    },
+    "initial_meta_error_counter": {
+      "none": 110,
+      "low_symbolic_coverage": 69,
+      "missing_constraint": 1
+    },
+    "candidate_meta_error_counter": {
+      "none": 180
+    },
+    "rejection_counter": {
+      "no_answer_change": 66
+    }
+  },
+  "output_files": {
+    "summary": "outputs/multiarith_full_qwen15b_guarded_n3/analysis/analysis_summary.json",
+    "fixed_cases": "outputs/multiarith_full_qwen15b_guarded_n3/analysis/fixed_cases.jsonl",
+    "broken_cases": "outputs/multiarith_full_qwen15b_guarded_n3/analysis/broken_cases.jsonl",
+    "remaining_errors": "outputs/multiarith_full_qwen15b_guarded_n3/analysis/remaining_errors.jsonl",
+    "correct_but_rejected": "outputs/multiarith_full_qwen15b_guarded_n3/analysis/correct_but_rejected.jsonl",
+    "initially_wrong_candidate_correct_but_rejected": "outputs/multiarith_full_qwen15b_guarded_n3/analysis/initially_wrong_candidate_correct_but_rejected.jsonl",
+    "initially_correct_candidate_correct_but_rejected": "outputs/multiarith_full_qwen15b_guarded_n3/analysis/initially_correct_candidate_correct_but_rejected.jsonl",
+    "initially_wrong_graph_guard_rejected": "outputs/multiarith_full_qwen15b_guarded_n3/analysis/initially_wrong_graph_guard_rejected.jsonl",
+    "initially_wrong_format_failed": "outputs/multiarith_full_qwen15b_guarded_n3/analysis/initially_wrong_format_failed.jsonl",
+    "initially_wrong_candidate_wrong": "outputs/multiarith_full_qwen15b_guarded_n3/analysis/initially_wrong_candidate_wrong.jsonl",
+    "initially_wrong_no_candidate": "outputs/multiarith_full_qwen15b_guarded_n3/analysis/initially_wrong_no_candidate.jsonl",
+    "rejected_by_reason": "outputs/multiarith_full_qwen15b_guarded_n3/analysis/rejected_by_reason.jsonl",
+    "llm_format_failures": "outputs/multiarith_full_qwen15b_guarded_n3/analysis/llm_format_failures.jsonl"
+  }
+}

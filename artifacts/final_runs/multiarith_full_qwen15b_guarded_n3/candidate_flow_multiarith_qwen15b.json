@@ -1,0 +1,13 @@
+{
+  "raw_results_path": "outputs/multiarith_full_qwen15b_guarded_n3/raw_results.jsonl",
+  "total": 180,
+  "initial_correct": 174,
+  "initial_wrong": 6,
+  "triggered_wrong": 4,
+  "correct_candidate_exists_among_initial_wrong": 4,
+  "accepted_correct_repair": 4,
+  "rejected_correct_repair": 0,
+  "no_correct_candidate_among_initial_wrong": 2,
+  "final_wrong": 3,
+  "broken_correct": 1
+}
